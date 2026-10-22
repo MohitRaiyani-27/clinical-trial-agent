@@ -1,0 +1,11 @@
+[project]
+name = "clinical-trial-agent"
+version = "0.1.0"
+description = "LLM agent with tools, retrieval and evals for ClinicalTrials.gov"
+requires-python = ">=3.10"
+dependencies = []
+license = { text = "MIT" }
+authors = [{ name = "Mohit Raiyani" }]
+
+[project.scripts]
+trial-agent = "trial_agent.__main__:main"
